@@ -57,7 +57,7 @@ body {
 /* hero */
 .hero {
     height: 90vh;
-    background-image: url("images/sectionBackgroung.jpg");
+    background-image: url("../images/sectionBackground.jpg");
     background-size: cover;
     background-position: center;
 
@@ -220,6 +220,7 @@ section h2{
 }
 .placeButton a{
     text-decoration: none;
+    color: #F5F9FF;
 }
 /* GALLERY SECTION */
 .gallery{
