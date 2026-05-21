@@ -15,12 +15,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fi;
+    position: fixed;
     top: 0;
     z-index: 1000;
     padding: 20px 60px;
 }
-.triplogo {
+.triplog {
 
     font-size: 32px;
     font-weight: 600;
@@ -48,7 +48,7 @@ body {
     left: 0;
     bottom: -5px;
 
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 .navlinks a:hover::after{
     width: 100%;
@@ -57,7 +57,7 @@ body {
 /* hero */
 .hero {
     height: 90vh;
-    background-image: url("../images/sectionBaground.jpg");
+    background-image: url("images/sectionBackgroung.jpg");
     background-size: cover;
     background-position: center;
 
@@ -106,7 +106,7 @@ body {
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 .hero-content button:hover {
@@ -114,7 +114,7 @@ body {
     transform: scale(1.05);
 }
 
-.hero-content h2{
+.hero-content h2 {
     font-size: 60px;
     margin-bottom: 20px;
 }
@@ -216,7 +216,7 @@ section h2{
 }
 .placeButton:hover {
     background-color: #ff5e2b;
-    transition: scale(1.05);
+    transform: scale(1.05);
 }
 .placeButton a{
     text-decoration: none;
@@ -301,11 +301,8 @@ footer p{
 .contact-form input,
 .contact-form textarea{
     padding: 15px;
-
     border: 1px solid #ccc;
-
     border-radius: 10px;
-
     font-size: 16px;
 }
 
@@ -338,7 +335,7 @@ footer p{
         gap: 20px;
     }
 
-    .nav-links{
+    .navlinks{
         flex-direction: column;
         text-align: center;
     }
